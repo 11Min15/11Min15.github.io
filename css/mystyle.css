@@ -1,0 +1,314 @@
+@charset "utf-8";
+
+body {
+    background-image: url("../image/background.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Yomogi", cursive;
+    color: #333333;
+}
+
+.title {
+    color: #333333;
+    background-color: #e6c85c;
+    font-size: 250%;
+    text-align: center;
+}
+
+.open-date {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    color: #333333;
+    background-color: #c0c0c0;
+    font-size: 90%;
+    text-align: center;
+}
+
+.subhead {
+    background-color: #cdb4db;
+}
+
+article h1 {
+    color: #333333;
+    background-color: #cdb4db;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgb(130, 91, 168);
+}
+
+.navy {
+    color: #333333;
+}
+
+.red {
+    color: #9d4edd;
+}
+
+h2 {
+    font-size: 150%;
+    color: #333333;
+}
+
+.icon {
+    width: 300px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+.date {
+    color: #999;
+    font-size: 80%;
+}
+
+section {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+section img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+article>img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0;
+}
+
+ul time {
+    background-color: yellow;
+    color: navy;
+    border-radius: 10px;
+    font-size: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.mokuji {
+    list-style-type: square;
+    font-size: 110%;
+}
+
+.mokuji a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.mokuji a:visited {
+    color: #999;
+}
+
+.mokuji a:hover {
+    color: #ff6699;
+}
+
+.mokuji a:active {
+    color: #cc3366;
+}
+
+.history {
+    list-style-type: none;
+}
+
+nav ul {
+    font-weight: bold;
+    text-align: right;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 2px solid #9d4edd;
+    color: #333333;
+}
+
+.making-list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #9d4edd;
+}
+
+a:link {
+    color: #9d4edd;
+}
+
+a:visited {
+    color: #6a4c93;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #4a148c;
+}
+
+a:active {
+    color: #4a148c;
+}
+
+.breadcrumb li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.illust-img {
+    width: auto;
+    max-width: none;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+.note-flame {
+    border: 3px solid #cdb4db;
+    border-radius: 12px;
+    padding: 20px;
+    background-color: #fffdf7;
+    box-shadow: 4px 4px 10px rgba(130, 91, 168, 0.2);
+}
+
+.point-img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 3px 3px 8px rgba(157, 78, 237, 0.3);
+}
+
+.point-list {
+    list-style-image: url("../image/hoshiiiiiiiiii.png");
+    padding-left: 50px;
+}
+
+.material-box {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.float-img {
+    float: left;
+    width: 200px;
+    margin: 0 20px 20px 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.back-to-top {
+    display: block;
+    text-align: right;
+    margin-top: 20px;
+    font-size: 90%;
+    color: #9d4edd;
+}
+
+.top-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    border-radius: 10px;
+}
+
+.making-point {
+    width: auto;
+    max-width: none;
+    margin: 0 auto;
+    border: none;
+}
+
+.finish-img {
+    width: auto;
+    height: auto;
+    max-width: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.point-block {
+    margin-bottom: 25px;
+}
+
+.point-block img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.point-text {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.finish-img {
+    width: auto;
+    height: auto;
+    max-width: none;
+    max-height: none;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+
+/*スマホ用*/
+@media screen and (max-width: 600px) {
+
+    .point-img,
+    section img {
+        max-width: 200px;
+    }
+
+    nav ul.mokuji li {
+        font-size: 75%;
+        margin-bottom: 10px;
+    }
+
+    .icon {
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
+    }
+
+    .navy section {
+        width: 100%;
+    }
+
+    .header-in {
+        width: auto;
+    }
+
+    footer {
+        font-size: 75%;
+    }
+}
