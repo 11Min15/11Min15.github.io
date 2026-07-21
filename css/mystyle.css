@@ -208,6 +208,32 @@ a:active {
     padding-left: 50px;
 }
 
+.point-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.point-table th,
+.point-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.point-table th {
+    background-color: #f3e8ff;
+    text-align: left;
+}
+
+.contact-img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 3px 3px 8px rgba(157, 78, 237, 0.3);
+}
 .material-box {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
     padding: 20px;
